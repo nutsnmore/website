@@ -1,0 +1,51 @@
+a {
+	color: #C1292E;
+}
+
+a:hover {
+    color: #a22126;
+    text-decoration: underline;
+}
+
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: yellow;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+.jumbotron{
+	background:  linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../img/nuts-bg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+	position: relative;
+}
+.card{
+	border: 0px;
+}
+
+.btn {
+	border: 0px;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary .focus, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: #C1292E;
+	border-color: #C1292E;
+}
+
+.btn-primary:focus, .btn-primary .focus {
+	box-shadow: 0 0 0 0.2rem rgba(193,41,46,.5) !important;
+}
+
+.btn-primary:hover{
+	background-color: #a22126;
+}
+
+footer {
+	border-top: 1px solid #CCC;
+}
