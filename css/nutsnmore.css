@@ -1,3 +1,8 @@
+body {
+  padding-top: 96px;
+  background-image: url('../img/products-bg.png');
+}
+
 a {
 	color: #C1292E;
 }
@@ -7,8 +12,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.table{
+	background-color: #FFF;
+}
+
+.table-hover tbody tr:hover {
+	background-color: #FFFACD !important;
+}
+
+
 .bg-dark {
 	background-color: #000 !important;
+}
+
+.page-header{
+	background-image: linear-gradient(#93291E, #ED213A);
+	margin-bottom: 30px;
+	color: #FFFFFF;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -48,4 +68,30 @@ a:hover {
 
 footer {
 	border-top: 1px solid #CCC;
+	background: #FFF;
+}
+
+.rates .col-md-6 {
+	margin-bottom: 30px;
+}
+
+.rates .col-md-6 h2{
+	margin-bottom: 15px;
+}
+
+
+
+
+@media (max-width: 991.98px) { 
+
+.card{
+	margin-bottom: 15px;
+}
+
+}
+
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 0px;
+  }
 }
